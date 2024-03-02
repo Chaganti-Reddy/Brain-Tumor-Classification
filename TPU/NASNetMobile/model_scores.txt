@@ -1,0 +1,8 @@
+Train Loss: 0.020628130063414574
+Train Accuracy: 1.0
+--------------------
+Validation Loss: 1.144486665725708
+Validation Accuracy: 0.7578125
+--------------------
+Test Loss: 1.97804594039917
+Test Accuracy: 0.765625
