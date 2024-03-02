@@ -1,0 +1,20 @@
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ NASNet (Functional)         (None, 1056)              4269716   
+                                                                 
+ batch_normalization (Batch  (None, 1056)              4224      
+ Normalization)                                                  
+                                                                 
+ dense (Dense)               (None, 256)               270592    
+                                                                 
+ dropout (Dropout)           (None, 256)               0         
+                                                                 
+ dense_1 (Dense)             (None, 4)                 1028      
+                                                                 
+=================================================================
+Total params: 4545560 (17.34 MB)
+Trainable params: 4506710 (17.19 MB)
+Non-trainable params: 38850 (151.76 KB)
+_________________________________________________________________
