@@ -1,0 +1,20 @@
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ vgg19 (Functional)          (None, 512)               20024384  
+                                                                 
+ batch_normalization (Batch  (None, 512)               2048      
+ Normalization)                                                  
+                                                                 
+ dense (Dense)               (None, 256)               131328    
+                                                                 
+ dropout (Dropout)           (None, 256)               0         
+                                                                 
+ dense_1 (Dense)             (None, 4)                 1028      
+                                                                 
+=================================================================
+Total params: 20158788 (76.90 MB)
+Trainable params: 133380 (521.02 KB)
+Non-trainable params: 20025408 (76.39 MB)
+_________________________________________________________________
