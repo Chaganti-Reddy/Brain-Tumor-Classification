@@ -1,0 +1,20 @@
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ xception (Functional)       (None, 2048)              20861480  
+                                                                 
+ batch_normalization_4 (Bat  (None, 2048)              8192      
+ chNormalization)                                                
+                                                                 
+ dense (Dense)               (None, 256)               524544    
+                                                                 
+ dropout (Dropout)           (None, 256)               0         
+                                                                 
+ dense_1 (Dense)             (None, 4)                 1028      
+                                                                 
+=================================================================
+Total params: 21395244 (81.62 MB)
+Trainable params: 21336620 (81.39 MB)
+Non-trainable params: 58624 (229.00 KB)
+_________________________________________________________________
