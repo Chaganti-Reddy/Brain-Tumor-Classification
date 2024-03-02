@@ -1,0 +1,21 @@
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ inception_resnet_v2 (Funct  (None, 1536)              54336736  
+ ional)                                                          
+                                                                 
+ batch_normalization_203 (B  (None, 1536)              6144      
+ atchNormalization)                                              
+                                                                 
+ dense (Dense)               (None, 256)               393472    
+                                                                 
+ dropout (Dropout)           (None, 256)               0         
+                                                                 
+ dense_1 (Dense)             (None, 4)                 1028      
+                                                                 
+=================================================================
+Total params: 54737380 (208.81 MB)
+Trainable params: 54673764 (208.56 MB)
+Non-trainable params: 63616 (248.50 KB)
+_________________________________________________________________
