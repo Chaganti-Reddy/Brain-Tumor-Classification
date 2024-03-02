@@ -1,0 +1,20 @@
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ efficientnetb2 (Functional)  (None, 1408)             7768569   
+                                                                 
+ batch_normalization (BatchN  (None, 1408)             5632      
+ ormalization)                                                   
+                                                                 
+ dense (Dense)               (None, 256)               360704    
+                                                                 
+ dropout (Dropout)           (None, 256)               0         
+                                                                 
+ dense_1 (Dense)             (None, 4)                 1028      
+                                                                 
+=================================================================
+Total params: 8,135,933
+Trainable params: 8,065,542
+Non-trainable params: 70,391
+_________________________________________________________________
