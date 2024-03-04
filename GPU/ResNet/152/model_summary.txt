@@ -1,0 +1,20 @@
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ resnet152 (Functional)      (None, 2048)              58370944  
+                                                                 
+ batch_normalization (Batch  (None, 2048)              8192      
+ Normalization)                                                  
+                                                                 
+ dense (Dense)               (None, 256)               524544    
+                                                                 
+ dropout (Dropout)           (None, 256)               0         
+                                                                 
+ dense_1 (Dense)             (None, 4)                 1028      
+                                                                 
+=================================================================
+Total params: 58904708 (224.70 MB)
+Trainable params: 58749188 (224.11 MB)
+Non-trainable params: 155520 (607.50 KB)
+_________________________________________________________________
