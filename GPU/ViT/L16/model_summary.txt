@@ -1,0 +1,35 @@
+Model: "vision_transformer"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ vit-l16 (Functional)        (None, 1024)              303301632 
+                                                                 
+ dropout (Dropout)           (None, 1024)              0         
+                                                                 
+ flatten (Flatten)           (None, 1024)              0         
+                                                                 
+ batch_normalization (Batch  (None, 1024)              4096      
+ Normalization)                                                  
+                                                                 
+ dense (Dense)               (None, 128)               131200    
+                                                                 
+ batch_normalization_1 (Bat  (None, 128)               512       
+ chNormalization)                                                
+                                                                 
+ dense_1 (Dense)             (None, 64)                8256      
+                                                                 
+ batch_normalization_2 (Bat  (None, 64)                256       
+ chNormalization)                                                
+                                                                 
+ dense_2 (Dense)             (None, 32)                2080      
+                                                                 
+ batch_normalization_3 (Bat  (None, 32)                128       
+ chNormalization)                                                
+                                                                 
+ dense_3 (Dense)             (None, 4)                 132       
+                                                                 
+=================================================================
+Total params: 303448292 (1.13 GB)
+Trainable params: 303445796 (1.13 GB)
+Non-trainable params: 2496 (9.75 KB)
+_________________________________________________________________
