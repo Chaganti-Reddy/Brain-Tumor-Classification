@@ -37,6 +37,6 @@ def main():
     validation loss of 0.068 and a 99.84% average validation accuracy. Although our 
     model focuses on brain tumors, its use can be extended to other types of 
     cancers that are diagnosed with similar methods (e.g MRI). The program has 
-    a graphic interface built using Streamlit and is hosted at Streamlit itself. Also, the source code is located at https://github.com/Chaganti-Reddy/Brain-Tumor-Classification. """
+    a graphic interface built using Streamlit and is hosted at https://brain-tumor-classification-as.streamlit.app/. Also, the source code is located at https://github.com/Chaganti-Reddy/Brain-Tumor-Classification. """
     st.write(abstract_text)
     st.markdown("<p class='git_link'> <a href='https://github.com/Chaganti-Reddy/' target='_blank'><h6 style='text-align: center'>by Chaganti Venkatarami Reddy</h6></a> </p>", unsafe_allow_html=True)
