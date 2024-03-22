@@ -16,7 +16,7 @@ routes = {
 
 
 st.set_page_config(
-    page_title="Brain Tumor Detection",
+    page_title="Brain Tumor Classification",
     page_icon=":brain:",
     layout="wide",
     menu_items={
