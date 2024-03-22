@@ -1,0 +1,11 @@
+tensorflow==2.14
+numpy
+matplotlib
+keras
+streamlit
+opencv-python-headless
+Pillow
+pandas
+beautifulsoup4
+requests
+lxml
