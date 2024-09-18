@@ -11,7 +11,7 @@ from route.components import title
 
 @st.cache_resource()
 def load():
-    model = load_model('effb3.keras')
+    model = load_model('../effb3.keras')
     return model
 
 class_names = {0: 'glioma', 1: 'meningioma', 2: 'notumor', 3: 'pituitary'}
