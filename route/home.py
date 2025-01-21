@@ -1,6 +1,8 @@
 import streamlit as st
 import os
+import tensorflow as tf
 import numpy as np
+import keras
 from keras.models import load_model
 import cv2
 from PIL import Image
@@ -11,7 +13,7 @@ from route.components import title
 
 @st.cache_resource()
 def load():
-    model = load_model('../effb3.keras')
+    model = load_model('effb3.keras')
     return model
 
 class_names = {0: 'glioma', 1: 'meningioma', 2: 'notumor', 3: 'pituitary'}
