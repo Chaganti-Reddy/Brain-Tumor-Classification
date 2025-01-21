@@ -9,7 +9,7 @@ from route import try_it
 
 
 routes = {
-    "Home": home.main,
+    # "Home": home.main,
     "Try it out": try_it.main,
     "About": about.main,
 }
